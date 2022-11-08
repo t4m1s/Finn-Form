@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color:#2CB3F3;
+}
+
+
+.texto {
+    width: 40rem;
+    height: 10rem;
+    margin-left: 27%;
+    text-align: center;
+    position: relative;
+}
+
+.touca {
+    width: 33rem;
+    height: 24rem;
+    background-color: white;
+    border-radius: 20% 20% 0 0;
+    position: absolute;
+    left: 32%;
+    top: 23%;
+}
+
+.rosto {
+    width: 26rem;
+    height: 19rem;
+    background-color: #FFE1C9;
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    left: 36%;
+    top: 30%;
+}
+
+.olhoUm {
+    width: 2rem;
+    height: 2rem;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 43%;
+    top: 43%;
+}
+
+.olhoDois {
+    width: 2rem;
+    height: 2rem;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    left: 57%;
+    top: 43%;
+}
+
+.email {
+    width: 12rem;
+    height: 2rem;
+    display: block;
+    border: solid black;
+    position: absolute;
+    left: 44%;
+    top: 58%;
+}
+
+.password {
+    width: 12rem;
+    height: 2rem;
+    display: block;
+    border: solid black;
+    position: absolute;
+    left: 44%;
+    top: 64%;
+}
+
+.botao {
+    width: 8rem;
+    height: 3rem;
+    background-color: #55A603;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    left: 47%;
+    top: 87%;
+    border-radius: 5% 5% 5% 5%;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
